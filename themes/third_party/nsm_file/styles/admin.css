@@ -1,0 +1,110 @@
+table.nsm_file-options{background: rgba(255,255,255,.3)!important; border: 1px solid #e3e3e3;  border-collapse:collapse!important; width:auto!important;}
+table.matrix-conf table.nsm_file-options{}
+table.nsm_file-options label{display: block;font-weight: normal; margin-right:9px;}
+table.nsm_file-options label:first-child{ margin-bottom:5px!important; }
+table.nsm_file-options label span{display: inline-block; width:50px}
+table.nsm_file-options thead, 
+table.nsm_file-options tr,
+table.nsm_file-options th,
+table.nsm_file-options td{background:none!important; border: none; color:inherit; padding:0; margin: 0;}
+
+table.matrix-conf table.nsm_file-options th:last-child,
+table.nsm_file-options th:last-child,
+table.matrix-conf table.nsm_file-options td:last-child,
+table.nsm_file-options td:last-child{border-right: 0!important;}
+
+table.nsm_file-options tr.odd td{background: transparent;}
+
+table.nsm_file-options thead{background:none!important;}
+table.nsm_file-options thead th,
+table.matrix-conf table.nsm_file-options thead th{border-bottom: 1px solid #e3e3e3 !important; padding:10px !important ;}
+
+table.nsm_file-options tbody{font-size: 11px;}
+table.nsm_file-options tbody th{font-size: 12px; width:60px;}
+table.nsm_file-options td,
+table.matrix-conf table.nsm_file-options td,
+table.nsm_file-options th{
+	border-bottom: 1px dotted #e3e3e3 !important;
+	border-right: 1px dotted #e3e3e3 !important;
+	padding: 5px 10px !important ;
+	vertical-align:middle;
+}
+table.nsm_file-options tbody th,
+table.nsm_file-options thead th:first-child,
+table.matrix-conf table.nsm_file-options tbody th
+{
+	background: transparent;
+	border-right-style: solid!important;
+	width: auto;
+}
+table.nsm_file-options td{font-size: 11px;}
+table.nsm_file-options textarea{
+	display: block;
+	margin-bottom: 5px;
+	width: 120px;
+}
+table.nsm_file-options input[type=text]{
+	width: 50px;
+}
+table.nsm_file-options input[type=checkbox]{
+	display: block;
+	margin: 0 auto;
+}
+
+.low-var-notes{
+	font-size: 11px;
+	margin-top: 3px;
+	font-weight: normal;
+}
+
+table.matrix-conf .nsm_file-notes{min-width:120px;}
+
+
+.nsm_file_ft{
+	background: rgba(255,255,255,.5);
+	border: 1px solid rgba(0,0,0,.1);
+	margin-top: 11px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.matrix .nsm_file_ft{margin-top: 0; border:none}
+.nsm_file_ft textarea{height: 50px; width: 200px;}
+
+.nsm_file_ft button{
+	border: 1px solid rgba(0,0,0,.3);
+	font-family: inherit;
+}
+.nsm_file_ft button.remove-file{margin-top:18px}
+.nsm_file_ft label{
+	display: block;
+	font-weight: bold !important;
+	margin-bottom: 5px;
+}
+.nsm_file_ft > div{
+	vertical-align:top;
+	padding: 9px;	
+}
+.nsm_file_ft.vertical > div{
+	border-bottom: 1px dotted #e3e3e3;
+}
+.nsm_file_ft.vertical > div:first-child{
+	border-top: 0;
+}
+.nsm_file_ft.horizontal > div{
+	display: inline-block;
+	display: table-cell;
+	border-right: 1px dotted #e3e3e3;
+}
+
+.nsm_file_ft-error{color:#fff; background:#a50008; padding:9px; margin-top:11px; margin-bottom:-6px; -moz-border-radius:3px; -webkit-border-radius:3px}
+
+.nsm_file-preview img{
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.2);
+	display: block;
+	margin:5px 0 9px 0;
+	padding:5px 5px 10px 5px;
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,.1);
+}
+.nsm_file-preview a{display: block; font-size: 10px; margin: 0; outline: none!important; text-decoration:none!important;}
